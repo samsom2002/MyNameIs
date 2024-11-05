@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container">
+        <section id="contact" class="parallax my-5">
+            <h2 class="fade-in">Contact Information</h2>
+            <form id="contact-form" class="fade-in">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <p class="fade-in"><strong>Email:</strong> Sami.ghusain@gmail.com</p>
+            <p class="fade-in"><strong>Phone:</strong> +963 935 937 597</p>
+            <p class="fade-in"><strong>Facebook:</strong> <a href="https://www.facebook.com/people/Sami-Alghussin/61559041290102/" target="_blank">facebook.com/people/Sami-Alghussin</a></p>
+            <p class="fade-in"><strong>GitHub:</strong> <a href="https://github.com/samsom2002/SVU_Projects-S24" target="_blank">github.com/samsom2002/SVU_Projects-S24</a></p>
+        </section>
+    </main>
+    <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="darkModeSwitch">
+        <label class="custom-control-label" for="darkModeSwitch">Toggle Dark Mode</label>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
