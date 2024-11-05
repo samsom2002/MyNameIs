@@ -73,13 +73,7 @@ a {
     color: white;
 }
 
-.carousel-item img.actual-size {
-    display: block;
-    max-width: 150%;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-}
+
 
 .parallax {
     background-image: url('https://github.com/samsom2002/MyNameIs/blob/main/slides/slide2.png');
