@@ -12,12 +12,18 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.6;
+    padding-top: 60px;
 }
 
 nav {
     margin-bottom: 2rem;
     background-color: black;
     border: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000
+    
 }
 
     nav .navbar-nav .nav-link {
