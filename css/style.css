@@ -72,6 +72,13 @@ a {
 .carousel-caption {
     color: white;
 }
+.carousel-item img.actual-size {
+    display: block;
+    max-width: none; /* Ensures the image is not constrained by the container */
+    width: auto;
+    height: auto;
+    margin: 0 auto; /* Centers the image */
+}
 
 
 
