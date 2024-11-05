@@ -8,10 +8,10 @@ document.querySelectorAll('a.nav-link').forEach(anchor => {
         const targetId = this.getAttribute('href');
         const targetElement = document.querySelector(targetId);
         const offset = targetElement.offsetTop - document.querySelector('.navbar').offsetHeight;
-        window.scrollTo({
-            top: offset,
-            behavior: 'smooth'
-        });
+        //window.scrollTo({
+           // top: offset,
+          //  behavior: 'smooth'
+      //  });
     });
 });
 
