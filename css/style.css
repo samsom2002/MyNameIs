@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     line-height: 1.6;
@@ -16,31 +16,31 @@ body {
 
 nav {
     margin-bottom: 2rem;
-    background-color: black;
+    background-color: white;
     border: none;
 }
 
     nav .navbar-nav .nav-link {
-        color: white;
+        color: black;
         border: none;
     }
 
         nav .navbar-nav .nav-link:hover,
         nav .navbar-nav .nav-link.active {
-            background-color: black;
-            color: lightgray;
+            background-color: white;
+            color: darkgray;
         }
 
 section {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     padding-bottom: 1.5rem;
-    color: white;
+    color: black;
 }
 
 form {
     max-width: 600px;
     margin: auto;
-    color: white;
+    color: black;
 }
 
 button[type="submit"] {
@@ -51,20 +51,20 @@ button[type="submit"] {
 }
 
 a {
-    color: white;
+    color: black;
     font-size: 18px;
 }
 
     a:hover {
-        color: lightgray;
+        color: darkgray;
     }
 
 .carousel {
-    background-color: black;
+    background-color: white;
 }
 
 .carousel-caption {
-    color: white;
+    color: black;
 }
 
 .carousel-item img.actual-size {
