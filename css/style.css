@@ -82,7 +82,7 @@ a {
 }
 
 .parallax {
-    background-image: url('slides/slide2.png');
+    background-image: url('https://github.com/samsom2002/MyNameIs/blob/main/slides/slide2.png');
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
