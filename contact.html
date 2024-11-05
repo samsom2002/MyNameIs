@@ -22,9 +22,24 @@
             </ul>
         </div>
     </nav>
-    <main class="container">
+       <main class="container">
         <section id="contact" class="parallax my-5">
             <h2 class="fade-in">Contact Information</h2>
+            <form id="contact-form" class="fade-in">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
             <p class="fade-in"><strong>Email:</strong> Sami.ghusain@gmail.com</p>
             <p class="fade-in"><strong>Phone:</strong> +963 935 937 597</p>
             <p class="fade-in"><strong>Facebook:</strong> <a href="https://www.facebook.com/people/Sami-Alghussin/61559041290102/" target="_blank">facebook.com/people/Sami-Alghussin</a></p>
@@ -37,6 +52,6 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>
